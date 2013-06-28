@@ -1,0 +1,3 @@
+url: http://localhost/Basteln/index.php?do=pull_project&user=<USER-ID>&project=<PROJECT-ID>
+result: [{pusher: {id: <USER-ID>, name: <USER-NAME>}, datetime: <DATETIME>, version: <VERSIONSNUMMER>}]
+fail:   {status: failed, reason: <MESSAGE>}

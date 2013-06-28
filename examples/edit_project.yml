@@ -1,0 +1,3 @@
+url: http://localhost/Basteln/index.php?do=edit_project&user=<USER>&id=<ID>&name=<NAME>&status=<STATUS>
+result: {id: <ID>, name: <NAME>, owner: {id: <USER-ID>, name: <USER-NAME>}, creation: <DATE>, status: ok}
+fail:   {status: failed, reason: <MESSAGE>}

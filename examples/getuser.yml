@@ -1,0 +1,7 @@
+url: http://localhost/Basteln/index.php?do=getuser&id=<USERID>&user=<CURRENT-USERID>
+test_url: [
+  http://localhost/Basteln/index.php?do=getuser&id=5&user=1
+  http://localhost/Basteln/index.php?do=getuser&id=4user=-1
+]
+result: {id: <ID>, name: <NAME>, vorname: <VORNAME>, nachname: <NACHNAME>, email: <EMAIL>, rolle: <ROLLE>, status: existing}
+failure: {status: missing }

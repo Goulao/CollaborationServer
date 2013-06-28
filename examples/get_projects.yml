@@ -1,0 +1,2 @@
+url: http://localhost/Basteln/index.php?do=get_projects&user=<USER>&status=<open|closed|all>
+result: [{id: <ID>, name: <NAME>, owner: {id: <USER-ID>, name: <USER-NAME>}, creation: <DATE>}, {...}]

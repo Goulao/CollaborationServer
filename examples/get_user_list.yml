@@ -1,0 +1,7 @@
+url: http://localhost/Basteln/index.php?do=getuserlist&user=<USERID>
+test_url: [
+  http://localhost/Basteln/index.php?do=getuserlist&user=1
+  http://localhost/Basteln/index.php?do=getuserlist&user=-1
+]
+result: [{id: <ID>, name: <NAME>}, {id: <ID>, name: <NAME>}, ...]
+
