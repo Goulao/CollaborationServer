@@ -1,0 +1,4 @@
+url: http://localhost/Basteln/index.php?do=changepwd&user=<USER-ID>&oldpwd=<OLD-PWD>&newpwd=<NEW_PWD>
+test_url: http://localhost/Basteln/index.php?do=changepwd&user=1&oldpwd=12345&newpwd=123456789
+result: {status: changed}
+failure: {status: failed, reason: "message"}

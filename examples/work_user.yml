@@ -1,0 +1,4 @@
+url: http://localhost/Basteln/index.php?do=work_user&user=<USER>&id=<USER-ID>&rolle=<ROLLE>&name=<NAME>&vorname=<VORNAME>&nachname=<NACHNAME>&email=<EMAIL>
+test_url: http://localhost/Basteln/index.php?do=work_user&user=1&id=2&rolle=member&name=kathi&vorname=kathrin&nachname=müller&email=kathi.müller@blblblblblbl.com
+result: {id: <ID>, user: <USER>, vorname: <VORNAME>, nachname: <NACHNAME>, email: <EMAIL>, rolle: <ROLLE>, status: changed}
+failure: {id: <ID>, user: <USER>, vorname: <VORNAME>, nachname: <NACHNAME>, email: <EMAIL>, rolle: <ROLLE>, status: failed}

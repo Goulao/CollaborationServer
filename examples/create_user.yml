@@ -1,0 +1,3 @@
+url: http://localhost/Basteln/index.php?do=create_user&user=<USER>&name=<NAME>&passwort=<PASSWORD>&vorname=<VORNAME>&nachname=<NACHNAME>&email=<EMAIL>&rolle=<ROLLE>
+result: {id: <ID>, name: <NAME>, vorname: <VORNAME>, nachname: <NACHNAME>, email: <EMAIL>, rolle: <ROLLE>, status: created}
+fail:   {status: failed, reason: [<MESSAGE1>, <MESSAGE2>]}

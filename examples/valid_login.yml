@@ -1,0 +1,4 @@
+url: http://localhost/Basteln/index.php?do=login&user=<USER>&pwd=<PASSWORD>
+test_url: http://localhost/Basteln/index.php?do=login&user=Goulao&pwd=12345
+result: {id: <ID>, user: <USER>, vorname: <VORNAME>, nachname: <NACHNAME>, email: <EMAIL>, rolle: <ROLLE>, status: ok}
+use:    http://de.php.net/json_encode
